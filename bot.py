@@ -184,8 +184,8 @@ class RaidCoordinator(commands.AutoShardedBot):
         elif message.author.id == 329412230481444886:
             await gymhuntr_handler.process_raid(self, message)
         else:
-            if message.author.bot and message.author.id != 122123813969330180:
-                return
+            #if message.author.bot and message.author.id != 122123813969330180:
+                #return
 
             await self.process_commands(message)
 
